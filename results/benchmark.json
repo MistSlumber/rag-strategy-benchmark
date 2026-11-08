@@ -1,0 +1,174 @@
+{
+  "k": 3,
+  "docs": 20,
+  "questions": 20,
+  "strategies": {
+    "bm25": {
+      "recall_at_k": 0.85,
+      "mrr": 0.7917,
+      "hits": 17,
+      "total": 20,
+      "failures": [
+        {
+          "question": "怎么衡量我的检索系统到底好不好",
+          "gold": "Q5",
+          "top_k": [
+            "Q3",
+            "Q6",
+            "Q2"
+          ]
+        },
+        {
+          "question": "资料里没写的问题，模型瞎编怎么处理",
+          "gold": "Q7",
+          "top_k": [
+            "Q5",
+            "Q1",
+            "Q11"
+          ]
+        },
+        {
+          "question": "怎么防止整体调用费用越用越高",
+          "gold": "Q15",
+          "top_k": [
+            "Q13",
+            "Q11",
+            "Q9"
+          ]
+        }
+      ]
+    },
+    "tfidf": {
+      "recall_at_k": 0.85,
+      "mrr": 0.7417,
+      "hits": 17,
+      "total": 20,
+      "failures": [
+        {
+          "question": "怎么衡量我的检索系统到底好不好",
+          "gold": "Q5",
+          "top_k": [
+            "Q3",
+            "Q6",
+            "Q2"
+          ]
+        },
+        {
+          "question": "资料里没写的问题，模型瞎编怎么处理",
+          "gold": "Q7",
+          "top_k": [
+            "Q5",
+            "Q1",
+            "Q11"
+          ]
+        },
+        {
+          "question": "怎么防止整体调用费用越用越高",
+          "gold": "Q15",
+          "top_k": [
+            "Q13",
+            "Q11",
+            "Q9"
+          ]
+        }
+      ]
+    },
+    "rrf_hybrid": {
+      "recall_at_k": 0.85,
+      "mrr": 0.7917,
+      "hits": 17,
+      "total": 20,
+      "failures": [
+        {
+          "question": "怎么衡量我的检索系统到底好不好",
+          "gold": "Q5",
+          "top_k": [
+            "Q3",
+            "Q6",
+            "Q2"
+          ]
+        },
+        {
+          "question": "资料里没写的问题，模型瞎编怎么处理",
+          "gold": "Q7",
+          "top_k": [
+            "Q5",
+            "Q1",
+            "Q11"
+          ]
+        },
+        {
+          "question": "怎么防止整体调用费用越用越高",
+          "gold": "Q15",
+          "top_k": [
+            "Q13",
+            "Q11",
+            "Q9"
+          ]
+        }
+      ]
+    },
+    "rrf_hybrid_rerank": {
+      "recall_at_k": 0.7,
+      "mrr": 0.5833,
+      "hits": 14,
+      "total": 20,
+      "failures": [
+        {
+          "question": "rerank 为什么只对候选集做",
+          "gold": "Q4",
+          "top_k": [
+            "Q3",
+            "Q12",
+            "Q11"
+          ]
+        },
+        {
+          "question": "怎么衡量我的检索系统到底好不好",
+          "gold": "Q5",
+          "top_k": [
+            "Q3",
+            "Q6",
+            "Q1"
+          ]
+        },
+        {
+          "question": "Recall 和 MRR 分别看什么",
+          "gold": "Q6",
+          "top_k": [
+            "Q11",
+            "Q9",
+            "Q12"
+          ]
+        },
+        {
+          "question": "资料里没写的问题，模型瞎编怎么处理",
+          "gold": "Q7",
+          "top_k": [
+            "Q11",
+            "Q5",
+            "Q1"
+          ]
+        },
+        {
+          "question": "显存不够还想微调怎么办",
+          "gold": "Q13",
+          "top_k": [
+            "Q12",
+            "Q18",
+            "Q11"
+          ]
+        },
+        {
+          "question": "怎么防止整体调用费用越用越高",
+          "gold": "Q15",
+          "top_k": [
+            "Q11",
+            "Q18",
+            "Q12"
+          ]
+        }
+      ]
+    }
+  }
+}

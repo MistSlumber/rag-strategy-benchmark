@@ -1,0 +1,20 @@
+{"question": "模型不知道我们公司内部的资料，该用什么办法？", "gold": "Q1", "type": "fact"}
+{"question": "RAG 是干嘛的，简单说一下", "gold": "Q1", "type": "fact"}
+{"question": "一段文档切多长比较合适，要不要留重叠？", "gold": "Q2", "type": "fact"}
+{"question": "chunk size 和 overlap 怎么选", "gold": "Q2", "type": "fact"}
+{"question": "只做向量召回有什么坑？", "gold": "Q3", "type": "fact"}
+{"question": "搜索产品型号的时候老是搜不准怎么办", "gold": "Q3", "type": "fact"}
+{"question": "粗排之后再加一层打分有必要吗", "gold": "Q4", "type": "fact"}
+{"question": "rerank 为什么只对候选集做", "gold": "Q4", "type": "fact"}
+{"question": "怎么衡量我的检索系统到底好不好", "gold": "Q5", "type": "fact"}
+{"question": "评测问题应该从哪里来，要标什么", "gold": "Q5", "type": "fact"}
+{"question": "Recall 和 MRR 分别看什么", "gold": "Q6", "type": "fact"}
+{"question": "资料里没写的问题，模型瞎编怎么处理", "gold": "Q7", "type": "fact"}
+{"question": "写提示词有什么固定套路吗", "gold": "Q8", "type": "fact"}
+{"question": "Agent 和普通的一次调用区别在哪", "gold": "Q9", "type": "fact"}
+{"question": "怎么防止智能体一直循环跑不完", "gold": "Q9", "type": "fact"}
+{"question": "多步流程用图来编排有什么好处", "gold": "Q10", "type": "fact"}
+{"question": "工具接入的统一协议管什么，不管什么", "gold": "Q11", "type": "fact"}
+{"question": "什么情况下才值得做微调", "gold": "Q12", "type": "fact"}
+{"question": "显存不够还想微调怎么办", "gold": "Q13", "type": "fact"}
+{"question": "怎么防止整体调用费用越用越高", "gold": "Q15", "type": "fact"}
